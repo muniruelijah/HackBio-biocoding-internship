@@ -1,0 +1,15 @@
+---
+title: "Stage_0_explainer"
+author: "muniruelijah"
+date: "2025-02-07"
+output: github_document
+---
+#Stage 0 Explanier 
+### Author: Muniru Elijah ;Slack @MuniruElijah 
+
+##TASK
+The task for this stage was to use any data structure of our choice to organise the names, slack usernames, email address, hobby, country, discipline and prefferred programming language of the member of our team. 
+
+## PROPOSED SOLUTION 
+
+
