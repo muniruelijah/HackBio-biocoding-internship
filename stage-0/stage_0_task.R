@@ -68,3 +68,5 @@ cat(Team_data[6,1], "slack username is", Team_data[6,2], "and can be reached thr
     Team_data[6,1], " resides in", Team_data[6,5],",", "\n",
     Team_data[6,1], "discipline is ", Team_data[6,6],",","\n",
     Team_data[6,1], " preferred programming language is ", Team_data[6,7])
+
+print("Thanks for Visiting")
