@@ -33,40 +33,40 @@ Team_data <- data.frame(
 )
 
 print("Meet team-histidine members")
+# This section contains information about the first member
 cat(Team_data[1,1], "slack username is", Team_data[1,2], "and he can be reached through this email address:", Team_data[1,3],",", "\n",
       Team_data[1,1], " hobby is ", Team_data[1,4],",", "\n" ,
       Team_data[1,1], " resides in", Team_data[1,5],",", "\n",
       Team_data[1,1], "discipline is ", Team_data[1,6],",","\n",
       Team_data[1,1], " preferred programming language is ", Team_data[1,7], "programming language")
-# this section 
+# This section contains information about the second member 
 cat(Team_data[2,1], "slack username is", Team_data[2,2], "and he can be reached through this email address:", Team_data[2,3],",", "\n",
     Team_data[2,1], " hobbies are", Team_data[2,4],",", "\n" ,
     Team_data[2,1], " resides in", Team_data[2,5],",", "\n",
     Team_data[2,1], "discipline is ", Team_data[2,6],",","\n",
     Team_data[2,1], " preferred programming language is ", Team_data[2,7])
-# this
+# This section contains information about the third member
 cat(Team_data[3,1], "slack username is", Team_data[3,2], "and can be reached through this email address:", Team_data[3,3],",", "\n",
     Team_data[3,1], " hobbies are ", Team_data[3,4],",", "\n" ,
     Team_data[3,1], " resides in", Team_data[3,5],",", "\n",
     Team_data[3,1], "discipline is ", Team_data[3,6],",","\n",
     Team_data[3,1], " preferred programming language is ", Team_data[3,7])
-#this 
+# This section contains information about the fourth member
 cat(Team_data[4,1], "slack username is", Team_data[4,2], "and can be reached through this email address:", Team_data[4,3],",", "\n",
     Team_data[4,1], " hobbies are ", Team_data[4,4],",", "\n" ,
     Team_data[4,1], " resides in", Team_data[4,5],",", "\n",
     Team_data[4,1], "discipline is ", Team_data[4,6],",","\n",
     Team_data[4,1], " preferred programming language is ", Team_data[4,7])
-#thsis
+# This section contains information about the fifth member
 cat(Team_data[5,1], "slack username is", Team_data[5,2], "and can be reached through this email address:", Team_data[5,3],",", "\n",
     Team_data[5,1], " hobbies are ", Team_data[5,4],",", "\n" ,
     Team_data[5,1], " resides in", Team_data[5,5],",", "\n",
     Team_data[5,1], "discipline is ", Team_data[5,6],",","\n",
     Team_data[5,1], " preferred programming language is ", Team_data[5,7])
-#this 
+# This section contains information about the sixth member
 cat(Team_data[6,1], "slack username is", Team_data[6,2], "and can be reached through this email address:", Team_data[6,3],",", "\n",
     Team_data[6,1], " hobbies are ", Team_data[6,4],",", "\n" ,
     Team_data[6,1], " resides in", Team_data[6,5],",", "\n",
     Team_data[6,1], "discipline is ", Team_data[6,6],",","\n",
     Team_data[6,1], " preferred programming language is ", Team_data[6,7])
-
 print("Thanks for Visiting")
