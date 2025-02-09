@@ -5,18 +5,17 @@ muniruelijah
 
 # Stage 0 Explanier
 
-### Author: Muniru Elijah ;Slack @MuniruElijah
+### Author: Muniru Elijah ;Slack @MuniruElijah Contributors:@Stella, @Lase, @Elias, @Sproff,@nmametja.
 
 ## TASK
 
 The task for this stage was to use any data structure of our choice to
 organise the names, slack usernames, email address, hobby, country,
-discipline and prefferred programming language of the member of our
-team.
+discipline and preferred programming language of the member of our team.
 
 ## PROPOSED SOLUTION
 
-I chose to use a data frame to store the data in a structure manner,
+We chose to use a data frame to store the data in a structure manner,
 because with a data frame each member’s information will be in a row
 while each column will contain one type of information. Also data frame
 makes it easy to access each member’s information with indexing.
@@ -25,16 +24,16 @@ makes it easy to access each member’s information with indexing.
 
 ### STEP 1
 
-First i created a vector to store each type of information about my team
-members. e.g. name vector to store names, emails vector to store email
-addresses.
+First we created a vector to store each type of information about our
+team members. e.g. name vector to store names, emails vector to store
+email addresses.
 
 ### STEP 2
 
-I used the vector created to make a data frame to store all the
-informations together.
+Then we used the vector created to make a data frame to store all the
+information together.
 
 ## STEP 3
 
-I used the print() function and the cat() function to create a human
-readable output. **THANK YOU**
+Lastly we used a combination of the print() function and the cat()
+function to create a human readable output. **THANK YOU VERY MUCH**

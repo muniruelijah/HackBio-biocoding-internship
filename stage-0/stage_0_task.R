@@ -1,26 +1,26 @@
-#create a vector called names that contains the names of all the members of team-histidine
+# Create a vector called names that contains the names of all the members of team-histidine
 names <- c("Muniru Elijah Taiwo", "Elias Korchi Meziani", "Toluwalase Taiwo", "Neo Mokgadi Mametja", "Samuel Ogunleye", "Stella Adediwura")
 
-# create a vector called slack usernames that contains the slack username of all the members of team-hisitidine
+# Create a vector called slack usernames that contains the slack username of all the members of team-hisitidine
 slack_usernames <- c("MuniruElijah", "Elias", "Lase", "NeoMametja", "Sproff", "Stella")
 
-# create a vector called emails that contains the emails of all the the member of team-hisitdine
+# Create a vector called emails that contains the emails of all the the member of team-hisitdine
 emails <- c("muniruelijah@gmail.com", "elias.k.meziani@gmail.com", "princesstoluwalase@gmail.com", "nmametja@gmail.com", "hellodevsproff@gmail.com", "ifeoluwastella02@gmail.com")
 
-#create a vector called emails that contains the hobbies that contains the hobbies of all the members of team-histidine 
+# Create a vector called emails that contains the hobbies that contains the hobbies of all the members of team-histidine 
 hobbies <- c("Reading", "Videogames, History, Life Sciences, Gym, and Sleeping", "Watching movies and sleeping", " Outdoor activities, Gym and Sleeping", "Music", "Sleeping, reading, watching movies and surfing the Internet")
 
-# create a vector called countries that contains the country of origin of all the members of team-histidine 
+# Create a vector called countries that contains the country of origin of all the members of team-histidine 
 countries <- c("Nigeria", "Spain", "Nigeria", "South Africa", "Nigeria", "Nigeria")
 
-# create a vector called discipline that contains the course of study of all the members of team-histidine 
+# Create a vector called discipline that contains the course of study of all the members of team-histidine 
 discipline <- c("Anatomy", "Pharmacy", "Microbiology", "Plant Microbiology", "Biochemistry", "Microbiology")
 
-# create a vector called programming langagues that contains the preferred programming languages of members of team-histidine 
+# Create a vector called programming langagues that contains the preferred programming languages of members of team-histidine 
 programming_languages <- c("R", "Python", "Python", "Python", "Python", "Python")
 
-# Create a data frame to store the data. Each row will contain information
-# about one person, while the column will contain each field. 
+# Create a data frame to store the data. Each row will contain information about one person,
+# while the column will contain each type of information.  
 
 Team_data <- data.frame(
   Name = names,
