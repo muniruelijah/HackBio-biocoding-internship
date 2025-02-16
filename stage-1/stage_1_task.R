@@ -1,3 +1,4 @@
+# Task 1
 #write a function for translating DNA to protein. 
 DNA_to_Protein <- function(DNA_seq){
   #Convert the DNA sequence into codons 
@@ -25,14 +26,45 @@ DNA_to_Protein <- function(DNA_seq){
   return(Aminoacid_seq_vec)
 }
 
+#task 2
+# create logistic function 
+log_function <- function(growth_rate, midpoint, time_taken = 1:120,max_population = 100){
+  # create the logistic function equation
+  y <- max_population/(1 + exp((-growth_rate*(time_taken - midpoint))))
+  return(y)
+}
 
-# Logistic Population Growth Curve 
+# create a data frame that contains 100 growth curve (logistic function)
+# create a vector that contains 100 random growth rates (exponential phase)
 
-Log_pop_growth_curve <-  function(num, period){
-  
+random_growth_rate <- sample(seq(from = 0, to = 5, by = 0.01), 100)
+
+# create a vector that contains 100 random midpoints (lag phase)
+random_midpoints <- sample(seq(from = 10, to = 70, by = 0.2), 100)
+length(random_growth_rate)
+
+# use the random growth rates and midpoints to generate a data frame of 100 growth curves 
+indexed <- 1:100
+growth_curve_dataframe <- data.frame(
+  curve <- vector()
+)
+for (index in indexed){
+  new_curve <- log_function(random_growth_rate[index], random_midpoints[index])
+  print(length(new_curve))
 }
 
 
+
+
+# task 3
+carrying_capacity_function <- function(growth_rate, midpoint, carrying_capacity = 80 ,max_population = 100){
+  # create the logistic function equation
+  time_taken <- midpoint - (log(((max_population/carrying_capacity) - 1))/growth_rate)
+  return(time_taken)
+}
+
+
+# task 4
 # Hamming Distance between two words
 
 hamming_distance_calculator <- function(str_a, str_b){
@@ -54,10 +86,12 @@ hamming_distance_calculator <- function(str_a, str_b){
       }
     }
     return(hamming_distance)
-
+    
   } else {
     paste("The number of characters in ", str_a, 
           "is different from the number of characters in ", str_b)
   }
 }   
-    
+
+
+
