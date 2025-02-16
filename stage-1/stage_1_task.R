@@ -41,7 +41,6 @@ random_growth_rate <- sample(seq(from = 0, to = 5, by = 0.01), 100)
 
 # create a vector that contains 100 random midpoints (lag phase)
 random_midpoints <- sample(seq(from = 10, to = 70, by = 0.2), 100)
-length(random_growth_rate)
 
 # use the random growth rates and midpoints to generate a data frame of 100 growth curves 
 indexed <- 1:100
@@ -50,9 +49,9 @@ growth_curve_dataframe <- data.frame(
 )
 for (index in indexed){
   new_curve <- log_function(random_growth_rate[index], random_midpoints[index])
-  print(length(new_curve))
+  growth_curve_dataframe[,ncol(growth_curve_dataframe) + 1] <- list(new_curve)
 }
-
+tail(growth_curve_dataframe)
 
 
 
