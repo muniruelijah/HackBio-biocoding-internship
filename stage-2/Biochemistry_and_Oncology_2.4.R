@@ -51,6 +51,4 @@ pie(aminoacid_freq,
 # The amino acid with the highest impact on protein structure and function is Glycine (G)
 
 # What can you say about the structural property and functional property of amino acids with more than 100 occurences.
-
-aminoacid_freq
-
+hundred_plus_occurrance <- aminoacid_freq[aminoacid_freq > 100]
