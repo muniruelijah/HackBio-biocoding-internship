@@ -1,5 +1,7 @@
-getwd()
-setwd("C:/Users/Bossmantech/Documents/BIOINFORMATICS/CODING_FOR_BIO/HackBio-biocoding-internship/stage-2")
+setwd(paste(getwd(), 
+            "/stage-2", 
+            sep = ""))
+
 # Import the datasets
 sift_data <- read.table("https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/sift.tsv",
                         header = TRUE)

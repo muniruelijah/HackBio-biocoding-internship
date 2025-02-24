@@ -1,5 +1,6 @@
-getwd()
-setwd("C:/Users/Bossmantech/Documents/BIOINFORMATICS/CODING_FOR_BIO/HackBio-biocoding-internship/stage-2")
+setwd(paste(getwd(), 
+            "/stage-2", 
+            sep = ""))
 # Import the dataset
 trans_data <- read.table("https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt", 
                          header = TRUE)
